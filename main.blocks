@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Br$=MkWe}6t9/bVJo*Aa">count</variable></variables><block type="device_button_event" id="O2YMs;nHtQ=!yf{}OVQO" x="120" y="-252"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="controls_repeat_ext" id="8+]h9|m?M3apYlilAp;,"><value name="TIMES"><shadow type="math_whole_number" id="94-Oj|Q@WQ2E?k=UuOgW"><field name="NUM">1e+23</field></shadow></value><statement name="DO"><block type="variables_set" id="U7XeQzN|vd$}RDm0,/e$"><field name="VAR" id="Br$=MkWe}6t9/bVJo*Aa">count</field><value name="VALUE"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="math_arithmetic" id="QtiWRk,6]!sQXtaPVdfj"><field name="OP">ADD</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="JQC3}]DPbgIb!HU^RE$0"><field name="VAR" id="Br$=MkWe}6t9/bVJo*Aa">count</field></block></value><value name="B"><shadow type="math_number" id=";aDQ_c=zk4rTsGLrPs+9"><field name="NUM">1</field></shadow></value></block></value><next><block type="device_show_number" id="%5H|S,TqQtbj)L_@]?DU"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="S@Kt!JK+OpR.wSuS.fyg"><field name="VAR" id="Br$=MkWe}6t9/bVJo*Aa">count</field></block></value></block></next></block></statement></block></statement></block><block type="pxt-on-start" id="6aQuD?jk_=APD:Y=fbJg" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="Hx*V%9v#$LK!bp~2YUs?"><field name="LEDS">`
+        # . . . # 
+        # . . . # 
+        # # # # # 
+        # . . . # 
+        # . . . #
+        `</field><comment pinned="false" h="80" w="160">this is the greeting :]</comment><next><block type="device_show_leds" id="EIsmnS{)LNEwG^c0%8~-"><field name="LEDS">`
+        # # # # # 
+        # . . . . 
+        # # # # # 
+        # . . . . 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="IYSd^gN!k|$+W1WDHlOU"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field></block></next></block></next></block></statement></block></xml>
